@@ -7,6 +7,14 @@ gem 'rails', '3.1.2.rc2'
 
 gem 'sqlite3'
 
+gem 'execjs'
+gem 'therubyracer'
+
+group :development, :test do
+  gem 'webrat'
+  gem 'rspec'
+  gem 'rspec-rails'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
